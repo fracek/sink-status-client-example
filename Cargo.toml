@@ -1,0 +1,13 @@
+[package]
+name = "status-server-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6.2"
+prost = "0.12.1"
+tokio = { version = "1.32.0", features = ["full"] }
+tonic = "0.10.0"
+
+[build-dependencies]
+tonic-build = "0.10.0"
